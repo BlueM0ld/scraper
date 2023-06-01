@@ -219,8 +219,7 @@
             "comment": [
                 "<!-- Google Tag Manager -->",
                 "<!-- End Google Tag Manager -->"
-            ],
-            "script": "!function(e,t,a,n,g){e[n]=e[n]||[],e[n].push({\"gtm.start\":(new Date).getTime(),event:\"gtm.js\"});var m=t.getElementsByTagName(a)[0],r=t.createElement(a);r.async=!0,r.src=\"https://www.googletagmanager.com/gtm.js?id=GTM-5BQMSJS\",m.parentNode.insertBefore(r,m)}(window,document,\"script\",\"dataLayer\")"
+            ]
         },
         "body": {
             "attrs": {
@@ -228,21 +227,6 @@
                     "navigation-with-keyboard"
                 ]
             },
-            "script": [
-                "!function(){function e(e){document.documentElement.setAttribute(\"data-theme\",e)}var t=function(){var e=null;try{e=localStorage.getItem(\"theme\")}catch(e){}return e}();null!==t?e(t):window.matchMedia(\"(prefers-color-scheme: dark)\").matches?e(\"dark\"):(window.matchMedia(\"(prefers-color-scheme: light)\").matches,e(\"light\"))}()",
-                "let isPath=window.performance&&[\"navigate\",\"reload\",\"back_forward\"].includes(performance.getEntriesByType(\"navigation\")[0].type)&&[\"/developers/docs/apis/content-delivery-reference/\",\"/developers/docs/apis/content-delivery-reference/index.html\",\"/developers/docs/apis/content-delivery-reference\",\"/developers/docs/apis/content-management-reference/\",\"/developers/docs/apis/content-management-reference/index.html\",\"/developers/docs/apis/content-management-reference\"].includes(location.pathname);if(isPath){if(navigator.userAgent.search(\"Firefox\")>-1){function pgShow(e){var n=window.location.hash;n.length>1&&(el=document.getElementById(n.substr(1)),el&&el.scrollIntoView(!0))}window.scrollTo({top:0,behavior:\"smooth\"}),window.addEventListener(\"pageshow\",pgShow)}showRedocFrag(!1)}function showRedocFrag(e){const n=e?\"block\":\"none\",t=e?\"none\":\"block\",r=document.createRange().createContextualFragment(`\\n                            <style>\\n                            [data-theme='dark'] .redocusaurus{\\n                                display: ${n};\\n                                }\\n                            [data-theme='dark'] .redocusaurus-styles,\\n                            [data-theme='dark'] .redocusaurus-styles:after {\\n                                  border-radius: 50%;\\n                                  margin-top: 30vh !important;\\n                                  margin-bottom: 50vh !important;\\n                                  width: 7em;\\n                                  height: 7em;\\n                                }\\n                            [data-theme='dark'] .redocusaurus-styles {\\n                              display: ${t};\\n                              margin: 60px auto;\\n                              font-size: 10px;\\n                              position: relative;\\n                              text-indent: -9999em;\\n                              border-top: 1.1em solid rgba(255, 255, 255, 0.1);\\n                              border-right: 1.1em solid rgba(255, 255, 255, 0.1);\\n                              border-bottom: 1.1em solid rgba(255, 255, 255, 0.1);\\n                              border-left: 1.1em solid #ffffffc9;\\n                              -webkit-transform: translateZ(0);\\n                              -ms-transform: translateZ(0);\\n                              transform: translateZ(0);\\n                              -webkit-animation: load8 1.1s infinite linear;\\n                              animation: load8 1.1s infinite linear;\\n                            }\\n                            @-webkit-keyframes load8 {\\n                              0% {\\n                                -webkit-transform: rotate(0deg);\\n                                transform: rotate(0deg);\\n                              }\\n                              100% {\\n                                -webkit-transform: rotate(360deg);\\n                                transform: rotate(360deg);\\n                              }\\n                            }\\n                            @keyframes load8 {\\n                              0% {\\n                                -webkit-transform: rotate(0deg);\\n                                transform: rotate(0deg);\\n                              }\\n                              100% {\\n                                -webkit-transform: rotate(360deg);\\n                                transform: rotate(360deg);\\n                              }\\n                            }\\n                            </style>\\n                            `);document.querySelector(\"head\").append(r)}",
-                {
-                    "attrs": {
-                        "src": "/developers/assets/js/runtime~main.2444fbfc.js"
-                    }
-                },
-                {
-                    "attrs": {
-                        "src": "/developers/assets/js/main.33736598.js"
-                    }
-                },
-                "if(isPath){document.querySelector(\".redocusaurus\");document.onreadystatechange=function(){\"complete\"===document.readyState&&showRedocFrag(!0)}}"
-            ],
             "div": {
                 "attrs": {
                     "id": "__docusaurus"
